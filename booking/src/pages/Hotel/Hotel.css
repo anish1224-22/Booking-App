@@ -1,0 +1,122 @@
+.hotelContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 0 0 2rem;
+}
+
+.dimHotel{
+    filter: brightness(0.8);  
+}
+.hotelWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+}
+.bookNow{
+    position: absolute;
+    right: 0;
+    margin-top: 1.4rem;
+    padding: .4rem;
+    margin-right: 1rem;
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}
+.bookNow:hover{
+    background-color: orangered ;
+}
+.hotelTitle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.hotelAddress{
+    display: flex;
+    gap: 0.5rem;
+}
+.hotelAddress>span{
+    color: orange;
+    font-weight: bold;
+}
+.hotelDistance{
+    font-weight: 600;
+    color: blue;
+}
+.hotelPriceHighlight{
+    color: rgb(30, 179, 30);
+    font-weight: 500;
+}
+.hotelImages{
+    display: flex  ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgWrapper{
+    width: 33%;
+}
+.hotelImg{
+    width: 495px;
+    height: 330px;
+}
+.hotelDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.hotelDetailsTexts{
+    flex: 4;
+}
+.hotelDetailsPrice{
+    flex: 1;
+    background-color: orange;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.hotelDetailsPrice>button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: .4rem;
+    padding: .2rem;
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    top: 60px; /* Adjust this value according to your navbar height */
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.slidewrapper{
+    position: sticky;
+}
+.sliderImg{
+    width: 1200px;
+    height: 780px;
+}
+.close{
+    position: absolute;
+    font-size: 40px;
+    right: 0;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.dir{
+    align-self: center;
+    cursor: pointer;
+}
+.bottom{
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+}
+
+#btn:hover{
+    background-color: darkblue;
+}

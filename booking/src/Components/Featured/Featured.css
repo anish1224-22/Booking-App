@@ -1,0 +1,30 @@
+.featured{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 15px;
+    z-index: -1;
+    gap: 2.5rem;
+    background-color: orange;
+}
+.featuredItem{
+    position: relative;
+    color: white;
+    height: 20rem;
+    object-fit: contain;
+    border-radius: 10px;
+    flex: 1;
+}
+.featuredImg{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    filter: brightness(70%);
+}
+.featuredTitles{
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,102 @@
+.reserve{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 18%;
+  left: 35%;
+  height:auto;
+  width: auto;
+  background-color: whitesmoke;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+  color: rgb(8, 47, 161);
+  border-radius: 15px;
+  padding: 2rem;
+  transition:ease-in-out;
+}
+.rContainer{
+  position: relative;
+  gap: 10px
+}
+
+.rClose{
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+  cursor: pointer;
+}
+ 
+.rClose:hover{
+  color: orange;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.rItem {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-top: 1.2rem;
+  border: solid 2px blue;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.room{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.rItemInfo {
+  margin-bottom: 0.5rem;
+}
+
+.rTitle {
+  font-weight: bold;
+}
+
+.rDesc {
+  color: gray;
+}
+
+.rMax {
+  margin-top: 0.5rem;
+}
+
+.rPrice {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.room {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.room label {
+  margin-right: 0.5rem;
+}
+
+.rButton {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.rButton:hover {
+  background-color: darkblue;
+}

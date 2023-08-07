@@ -1,0 +1,33 @@
+.navbar{
+    height: 2.5rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: sticky; 
+    top: 0;
+    z-index: 6;
+}
+.navContainer{
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    cursor: pointer;
+}
+.navButton{
+    margin-left: 0.1rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(188, 188, 251);
+    height: 2rem;
+    width: 5rem;
+    cursor: pointer;
+}
